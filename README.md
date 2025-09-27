@@ -1,4 +1,5 @@
 GPU Cryptojacking Detection Prototype
+
 Overview
 This is a prototype program for detecting GPU cryptojacking based on the research paper "Behavior-Based Detection of GPU Cryptojacking" by Dmitry D. Tanana. It monitors GPU-utilizing processes on Windows systems with NVIDIA GPUs, using metrics like GPU utilization, GPU memory usage, RAM consumption, and the standard deviation of GPU utilization to identify potential cryptominers.
 The detection logic follows a decision tree inspired by the paper's algorithm.
